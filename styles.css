@@ -1,0 +1,75 @@
+/* Allgemeines Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Titel Styling */
+header .title {
+  font-size: 3rem;
+  color: #0047AB; /* Königliches Blau */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #0047AB;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Styling for Imam Malik Picture */
+.imam-malik-picture {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.imam-malik-picture img {
+  max-width: 15%;
+  height: auto;
+  border: 2px solid #0047AB; /* Optional border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Kalligraphie Abschnitt */
+.calligraphy {
+  font-size: 2.5rem;
+  font-family: "Amiri", serif; /* Arabische Kalligraphie-Schriftart */
+  margin: 20px 0;
+  color: #0047AB; /* Königliches Blau */
+  line-height: 1.5;
+  direction: rtl;
+}
+
+/* Überschriften */
+h2 {
+  font-size: 1.8rem;
+  color: #0047AB;
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* Absatz-Styling */
+p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  text-align: left;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
